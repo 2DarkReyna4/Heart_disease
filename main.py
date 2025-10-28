@@ -3,7 +3,7 @@ import numpy as np
 import scipy.stats as stats
 import streamlit as st
 
-df=pd.read_csv("/Users/s.sivasankaranarayanan/PycharmProjects/Data Science classes/heart.csv")
+df=pd.read_csv("heart.csv")
 st.title("Heart Disease")
 st.subheader("shows the relation between two factor affection Heart disease")
 #(df.columns)
